@@ -8,11 +8,8 @@ export function Hero() {
 
         if (window.screen.width >= 1900 ) {
             scroll.scrollTo(950);
-            console.log('screen.width', window.screen.width);
         } else if (window.screen.width <= 450) {
             scroll.scrollTo(670);
-            console.log('screen.width', window.screen.width);
-
         }
     }
 
