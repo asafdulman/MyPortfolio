@@ -10,6 +10,7 @@ export function Hero() {
             scroll.scrollTo(950);
         } else if (window.screen.width <= 450) {
             scroll.scrollTo(670);
+            console.log('window.screen.width', window.screen.width);
         }
     }
 
