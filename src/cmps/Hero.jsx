@@ -5,7 +5,15 @@ import { Animated } from "react-animated-css";
 export function Hero() {
 
     function scrollToPoint() {
-        scroll.scrollTo(950);
+
+        if (window.screen.width >= 1900 ) {
+            scroll.scrollTo(950);
+            console.log('screen.width', window.screen.width);
+        } else if (window.screen.width <= 450) {
+            scroll.scrollTo(670);
+            console.log('screen.width', window.screen.width);
+
+        }
     }
 
     return (
