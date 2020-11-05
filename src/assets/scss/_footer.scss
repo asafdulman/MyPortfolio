@@ -127,6 +127,18 @@
 @media (max-width: 520px) {
 
     .footer-box {
+        width: 375px;
+        
+        .social-box {
+            width: 300px;
+        }
+    }
+
+}
+@media (max-width: 370px) {
+
+    .footer-box {
+        width: 370px;
 
         .social-box {
             width: 300px;

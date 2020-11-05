@@ -207,7 +207,19 @@ $stars-big: stars(100);
 }
 
 @media (max-width: 400px) {
+
+  .hero {
+    width: 375px;
+  }
   .heading {
     width: 375px;
+  }
+}
+@media (max-width: 370px) {
+  .hero {
+    width: 370px;
+  }
+  .heading {
+    width: 350px;
   }
 }

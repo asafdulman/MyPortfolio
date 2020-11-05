@@ -100,10 +100,12 @@
 @media (max-width: 440px) {
 
 
-
+    .contact-box-full {
+        width: 375px;
+    }
     .contact-box {
-        width: 360px;
         text-align: center;
+        width: 375px;
 
         p {
             width: 280px;
@@ -117,6 +119,16 @@
         textarea {
             
             width: 300px;
+        }
+    }
+
+    @media (max-width: 370px) {
+        .contact-box-full {
+            width: 370px;
+        }
+        .contact-box {
+            text-align: center;
+            width: 370px;
         }
     }
 
