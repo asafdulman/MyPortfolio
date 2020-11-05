@@ -5,14 +5,28 @@ import { Animated } from "react-animated-css";
 export function Hero() {
 
     function scrollToPoint() {
-
-        if (window.screen.width >= 1900 ) {
+        //big screen
+        if (window.screen.width >= 1900) {
             scroll.scrollTo(950);
-        } else if (window.screen.width <= 450) {
-            console.log('window.screen.width', window.screen.width);
-        } else {
+            //iphone 6/7/8 plus
+        } else if (window.screen.width <= 450 && window.screen.width >= 401 && window.screen.height >= 710 && window.screen.height <= 799) {
+            scroll.scrollTo(750);
+        }
+        else if (window.screen.width <= 450 && window.screen.width >= 401 && window.screen.height >= 800) {
+            scroll.scrollTo(825);
+        }
+
+        //iphoneX
+        else if (window.screen.width <= 400 && window.screen.height >= 710) {
+            scroll.scrollTo(820);
+        }
+        //iphone 6/7/8
+        else if (window.screen.width <= 400) {
+            scroll.scrollTo(680);
+        }
+        //laptop
+        else {
             scroll.scrollTo(630);
-            console.log('window.screen.width', window.screen.width);
         }
     }
 
