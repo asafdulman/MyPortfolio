@@ -6,7 +6,7 @@ import social from '../assets/img/social.svg'
 
 export function About() {
     return (
-        <div className="about-box">
+        <div id="about" className="about-box">
             <h1 className="about-heading">Myself</h1>
             <div className="about-main">
                 <div className="about-details">

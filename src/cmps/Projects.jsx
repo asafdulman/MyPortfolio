@@ -2,11 +2,11 @@ import { projService } from '../services/projService'
 import React, { useState } from 'react';
 import { ProjPreview } from './ProjPreview';
 
-export default function Projects({openModal}) {
+export  function Projects({openModal}) {
     const [projects] = useState(projService.query());
 
     return (
-        <div className="full">
+        <div id="projects" className="full">
             
         <div className="projects-box">
             <h1 className="projects-heading">PROJECTS</h1>

@@ -39,7 +39,7 @@ export function Contact() {
     
 
     return (
-        <div className="contact-box-full">
+        <div id="contact" className="contact-box-full">
             <div className="contact-box">
                     {isMessageModal && <div className="message-modal">Message sent!</div>}
                 <form action="mailto:asafdulman@gmail.com">
