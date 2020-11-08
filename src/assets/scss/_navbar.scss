@@ -250,7 +250,7 @@
      text-decoration: underline;
  }
 
- @media (max-width: 400px) {
+ @media (max-width: 420px) {
     .menu-item,
     .menu-open-button {
         width: 45px;
@@ -258,9 +258,4 @@
         line-height: 50px;
     }
 
-    .lines {
-    }
-
-    .menu-open-button {
-    }
  }
