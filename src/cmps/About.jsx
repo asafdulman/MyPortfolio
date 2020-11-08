@@ -48,7 +48,7 @@ export function About() {
 
                         </div>
                         <div className="skills-data-box">
-                            <h3>Sociable</h3>
+                            <h3>Social</h3>
                             <p>Fun to work with. Is it important? Of course!</p>
 
                         </div>
