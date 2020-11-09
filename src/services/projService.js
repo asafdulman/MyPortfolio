@@ -48,4 +48,14 @@ var gProjects = [
         langs: ['Vanilla js ', 'CSS'],
         description: 'A meme generator app which lets you create your own memes! You can upload your own image, search and filter through existing ones, select an image to meme on, add , delete and move lines, change font, font size, color and outline color. You can save and download the meme.'
     },
+    {   
+        id: 'p105',
+        name: 'Weather Center',
+        url: 'https://asafdulman.github.io/weather-center/#/',
+        git: 'https://github.com/asafdulman/weather-center',
+        img: 'https://res.cloudinary.com/dg0knvywy/image/upload/v1604925442/Capture_mttepk.jpg',
+        gif: 'https://res.cloudinary.com/dg0knvywy/image/upload/v1604925917/ezgif.com-gif-maker_1_r2ygw9.gif',
+        langs: ['React js ', 'Sass'],
+        description: 'Connect to the weather channel and find the place you want a 5 days weather forecast. Aware that you can save your favorite places for quick lookup'
+    },
 ]
