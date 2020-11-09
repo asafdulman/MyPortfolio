@@ -22,7 +22,7 @@ export function Contact({ elInView }) {
             setIsFailedMessageModal(true)
             setTimeout(() => {
                 setIsFailedMessageModal(false)
-            }, 2000);
+            }, 2500);
             return
         }
         let templateParams = {
