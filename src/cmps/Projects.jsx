@@ -6,7 +6,7 @@ export  function Projects({openModal}) {
     const [projects] = useState(projService.query());
 
     return (
-        <div id="projects" className="full">
+        <div name="projects" id="projects" className="full">
             
         <div className="projects-box">
             <h1 className="projects-heading">PROJECTS</h1>

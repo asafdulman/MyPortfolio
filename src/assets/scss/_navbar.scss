@@ -1,21 +1,22 @@
  a {
      color: inherit;
+     cursor: pointer;
  }
 
  .menu-item,
  .menu-open-button {
      z-index: 99996;
-     top: 60px;
+     top: 25px;
      left: 60px;
      background: #EEEEEE;
      border-radius: 100%;
-     width: 60px;
-     height: 60px;
+     width: 50px;
+     height: 50px;
      margin-left: -40px;
      position: fixed;
      color: #FFFFFF;
      text-align: center;
-     line-height: 60px;
+     line-height: 50px;
      transform: translate3d(0, 0, 0);
      transition: transform ease-out 200ms;
      transition: transform ease-out 200ms, -webkit-transform ease-out 200ms;
@@ -141,22 +142,22 @@
 
  .menu-open:checked~.menu-item:nth-child(3) {
     transition-duration: 480ms;
-    transform: translate3d(0.08361px, 84.99997px, 0);
+    transform: translate3d(-10.08361px, 74.99997px, 0);
  }
 
  .menu-open:checked~.menu-item:nth-child(4) {
      transition-duration: 280ms;
-     transform: translate3d(75.9466px, -52.47586px, 0);
+     transform: translate3d(68.9466px, -18.47586px, 0);
  }
 
  .menu-open:checked~.menu-item:nth-child(5) {
      transition-duration: 380ms;
-     transform: translate3d(80.9466px, 42.47586px, 0);
+     transform: translate3d(60.9466px, 52.47586px, 0);
  }
 
  .menu-open:checked~.menu-item:nth-child(6) {
      transition-duration: 480ms;
-     transform: translate3d(0.08361px, 104.99997px, 0);
+     transform: translate3d(-10.08361px, 104.99997px, 0);
  }
 
  .menu-open:checked~.menu-item:nth-child(7) {

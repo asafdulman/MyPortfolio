@@ -1,6 +1,6 @@
 .full {
     background-color: rgb(245, 245, 245);
-
+    min-height: 95vh;
 }
 
 .projects-box {
@@ -18,10 +18,18 @@
     }
 
     .projects-heading {
+        width: 160px;
+        margin: 0 auto 50px;
+        padding: 40px 0 10px;
+    }
+
+    .projects-heading::after {
+        content: "";
+        margin-top: 10px;
         width: 70px;
-        border-bottom: 5px solid #04c2c9;
-        margin: 0 auto 150px;
-        padding: 30px 0 10px;
+        height: 5px;
+        background-color: #04c2c9;
+        display: block;
     }
 
 }

@@ -5,7 +5,9 @@ import responsive from '../assets/img/responsive.svg'
 import social from '../assets/img/social.svg'
 
 export function About() {
+
     return (
+        <div name="about" className="about-full">
         <div id="about" className="about-box">
             <h1 className="about-heading">Myself</h1>
             <div className="about-main">
@@ -55,6 +57,7 @@ export function About() {
                     </div>
                 </div>
             </div>
+        </div>
         </div>
     )
 }

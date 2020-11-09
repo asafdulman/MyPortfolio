@@ -1,6 +1,6 @@
 import { Hero } from "./cmps/Hero";
 import { ProjectModal } from "./cmps/ProjectModal";
-import {Projects} from "./cmps/Projects";
+import { Projects } from "./cmps/Projects";
 import React, { useState } from 'react';
 import { About } from "./cmps/About";
 import { Contact } from "./cmps/Contact";
@@ -18,18 +18,18 @@ function App() {
     setIsModalOpen(!isModalOpen)
     if (proj) setProj(proj)
     else setProj('')
-    
+
   }
 
   return (
     <div className="App">
       <NavBar />
-      { proj && <ProjectModal openModal={openModal} proj={proj} isModalOpen={isModalOpen}/>}
-     <Hero />
-     <Projects openModal={openModal}/>
-     <About />
-     <Contact />
-     <Footer/>
+      { proj && <ProjectModal openModal={openModal} proj={proj} isModalOpen={isModalOpen} />}
+        <Hero />
+        <Projects openModal={openModal} />
+        <About />
+        <Contact />
+      <Footer />
     </div>
   );
 }

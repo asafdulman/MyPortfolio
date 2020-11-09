@@ -1,7 +1,12 @@
+.about-full {
+    width: 100%;
+}
+
 .about-box {
     width: 1210px;
     margin: 0 auto;
-    padding: 100px 0 200px;
+    padding: 30px 0 200px;
+    min-height: 90vh;
 }
 
 .about-main {
@@ -10,10 +15,18 @@
 }
 
 .about-heading {
-    width: 70px;
-    border-bottom: 5px solid #04c2c9;
+    width: 102px;
     margin: 0 auto 50px;
-    padding: 30px 0 10px;
+    padding: 20px 0;
+}
+
+.about-heading::after {
+    content: "";
+    margin-top: 10px;
+    width: 70px;
+    height: 5px;
+    background-color: #04c2c9;
+    display: block;
 }
 
 .about-details {
@@ -199,6 +212,7 @@
     .about-box {
         width: 360px;
         padding: 20px 5px 100px;
+        margin: 0 auto;
     }
 
     .about-main {
@@ -206,8 +220,9 @@
     }
 
     .about-heading {
-        margin-bottom: 30px;
-        padding-top: 15px;
+        width: 102px;
+        margin: 0 auto 30px;
+        padding-top: 20px;
     }
 
     .about-skills {
@@ -225,7 +240,7 @@
         }
 
         img {
-            width: 150px;
+            width: 180px;
             height: 240px;
             margin-bottom: 15px;
         }
