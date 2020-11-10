@@ -1,5 +1,5 @@
 import React from 'react'
-import profile from '../assets/img/profile.jpg'
+import profile from '../assets/img/profile1.jpg'
 import idea from '../assets/img/idea.svg'
 import responsive from '../assets/img/responsive.svg'
 import social from '../assets/img/social.svg'

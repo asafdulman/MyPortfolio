@@ -1,5 +1,6 @@
 import React from 'react'
 import { animateScroll as scroll } from "react-scroll";
+const cvLink = require('../assets/Asaf Dulman CV.pdf')
 
 export function Footer() {
 
@@ -10,18 +11,23 @@ export function Footer() {
         <div className="footer-box">
 
             <div className="contact-details">
-            <div onClick={toTop} className="back-to-top-box">
-            <i class="fas fa-angle-double-up fa-2x back-to-top-btn"></i>
+                <div onClick={toTop} className="back-to-top-box">
+                    <i class="fas fa-angle-double-up fa-2x back-to-top-btn"></i>
 
-            </div>
-                <div className="mail">
-                    <i className="far fa-envelope"></i>
-                    <i className="fab fa-github"></i>
                 </div>
-                <div className="github">
-                    <p>asafdulman@gmail.com</p>
-                    <a  href="https://github.com/asafdulman" target="_blank" rel="noreferrer" >Github</a>
+                <div className="contact-list">
 
+                    <div className="mail">
+                        <i class="fas fa-file"></i>
+                        <i className="far fa-envelope envelope"></i>
+                        <i className="fab fa-github"></i>
+                    </div>
+                    <div className="github">
+                        <p className="resume-btn" onClick={() => { window.open(cvLink.default) }}>Download my resume</p>
+                        <p>asafdulman@gmail.com</p>
+                        <a href="https://github.com/asafdulman" target="_blank" rel="noreferrer" >Github</a>
+
+                    </div>
                 </div>
             </div>
             <div className="social-box">

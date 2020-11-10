@@ -50,35 +50,59 @@
     align-items: center;
     position: relative;
 
+    .contact-list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
     .mail {
+        height: 150px;
         display: flex;
         flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
 
+        
         i {
             color: honeydew;
             margin: 0 10px;
         }
-        i:first-child {
+        i:not(:first-child) {
             color: honeydew;
-            margin: 10px;
+            margin-top: 5px;
         }
-
+        
     }
 
     .github-icon-footer {
         margin-top: 50px;
     }
-
+    
     .github {
+        height: 150px;
         display: flex;
         flex-direction: column;
-        
+        justify-content: space-around;
+
         p {
-            margin: 5px 0;
+            margin: 0;
+        }
+        
+        p:not(:first-child) {
+            margin: 0;
+            padding-bottom: 8px;
         }
     }
 
+    .resume-btn {
+        cursor: pointer;
+        margin: 0;
+
+        &:hover {
+            color: #59e9ee;
+        }
+    }
 
 
     a {

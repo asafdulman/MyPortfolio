@@ -259,19 +259,19 @@
         line-height: 50px;
     }
 
-    .menu-open:checked~.menu-item:nth-child(3) {
+     .menu-open:checked~.menu-item:nth-child(3) {
         transition-duration: 480ms;
-        transform: translate3d(0.08361px, 74.99997px, 0);
+        transform: translate3d(-10.08361px, 74.99997px, 0);
      }
     
      .menu-open:checked~.menu-item:nth-child(4) {
          transition-duration: 280ms;
-         transform: translate3d(65.9466px, -42.47586px, 0);
+         transform: translate3d(68.9466px, -18.47586px, 0);
      }
     
      .menu-open:checked~.menu-item:nth-child(5) {
          transition-duration: 380ms;
-         transform: translate3d(70.9466px, 32.47586px, 0);
+         transform: translate3d(60.9466px, 52.47586px, 0);
      }
 
  }
